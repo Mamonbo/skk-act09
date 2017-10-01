@@ -6,9 +6,16 @@ skk で使う機能と、"ann" のようにするのが衝突する
 あ行で "ann" を使わないとすれば解決なのがY箱式
 逃がすのが skk-act 方式
 
-~skk-act09-always-use-gedan~
 有効時 skk の機能を逃がす
-そのとき\に ~skk-toggle-kana~ (通常時 "q" に当ててある)を上書きする
+qではそのとき\に ~skk-toggle-kana~ (通常時 "q" に当ててある)を上書きする
+
+*** x
+素の skk では小さい時の入力に また便利記号入力にも使う
+act では常に "ann" の入力に
+
+やはり人の好みがあるので、左下段は個別に設定出来るようにしたい。
+~skk-act09-always-use-gedan-input-list~ で aoeui の順に
+設定出来るようにする
 
 ** 互換性を失う点
 *** 子音+y
